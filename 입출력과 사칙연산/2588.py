@@ -1,0 +1,12 @@
+a = input()
+b = input()
+a = int(a)
+b = int(b)
+b1 = int(b/100)
+b2 = int((b-(b1*100))/10)
+b3 = b-((b1*100)+(b2*10))
+
+print(b3*a)
+print(b2*a)
+print(b1*a)
+print(b*a)
